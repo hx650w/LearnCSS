@@ -1,0 +1,39 @@
+body {
+	margin: 0;	
+}
+
+ul {
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #dddddd;
+}
+
+li a {
+	padding: 10px 20px;
+	display: block;
+	color: black;
+	font-family: Verdana;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+li a.active {
+	color: white;
+	background-color: green;
+}
+
+li a:hover:not(.active) {
+	color: white;
+	background-color: #111111;
+}
+
+.temp {
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	background-color: green;
+	font-family: Verdana;
+	font-size: 15px;
+}
