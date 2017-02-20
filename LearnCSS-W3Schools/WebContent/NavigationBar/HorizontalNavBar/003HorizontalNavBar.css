@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #444444;
+}
+
+li {
+	float: left;
+}
+
+a {
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 15px;
+}
+
+a:hover:not(.active) {
+	background-color: black;
+}
+
+.active {
+	background-color: green;
+}
+
+li:LAST-CHILD {
+	float: right;
+}
